@@ -1,0 +1,189 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.rtl.min.css"
+        integrity="sha384-T5m5WERuXcjgzF8DAb7tRkByEZQGcpraRTinjpywg37AO96WoYN9+hrhDVoM6CaT" crossorigin="anonymous">
+
+    <title>cart</title>
+    <style>
+        .nav-link {
+
+
+
+            color: white;
+            font-style: bold;
+
+            border-spacing: 40px;
+            letter-spacing: 2px;
+
+
+        }
+
+        * {
+            padding: 0%;
+            margin: 0%;
+        }
+
+        .navbar {
+            background-color: rgb(34, 27, 27);
+            width: 100%;
+            padding: 0px;
+            margin: 0px;
+
+        }
+
+        .navbar-brand {
+
+            background-color: black;
+            color: white;
+            border-radius: 30px;
+            padding: 10px 30px 10px 30px;
+            font-family: 'Arial Narrow Bold', sans-serif;
+            border: 2px solid fuchsia;
+            letter-spacing: 2px;
+        }
+
+        .navbar-nav {
+            text-align: center;
+            padding: 10px 60px 10px 30px;
+
+        }
+
+        #images {
+            border-radius: 50px;
+            width: 60px;
+            height: 55px;
+            border: 3px solid red;
+            margin: 20px 0px 0px 20.5px;
+        }
+
+        #two {
+            background-color: blue;
+            color: white;
+
+        }
+
+        .jumbotron {
+            margin: 0px 0px 0px 120px;
+        }
+
+        .card-img-top {
+            width: 330px;
+            height: 300px;
+        }
+
+        body {
+            background-color: rgb(56, 52, 52);
+        }
+
+        .display-4 {
+            color: white;
+        }
+
+        .card {
+            background-color: black;
+            width: 100%;
+        }
+
+        .card-title {
+            color: white;
+        }
+
+        .card-text {
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg">
+        <img src="images.png" alt="img" id="images">
+        <div class="container-fluid">
+            <h2 class="navbar-brand">ECOMMERCE SHOPPING</h2>
+
+            <div class="one">
+                <div class="navbar-nav">
+
+                    <a class="nav-link" href="http://127.0.0.1:5500/shopping_ui_app/main.html">HOME</a>
+                    <a class="nav-link" href="http://127.0.0.1:5500/shopping_ui_app/cart.html">CART</a>
+                </div>
+                <div></div>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="row m-3 col-11">
+            <div class="card">
+                <img src="teddy3.jpeg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                        card's content.</p>
+                    <div class="btn-group" role="group" aria-label="Basic example">
+                        <button type="button" class="btn btn-primary">+</button>
+                        <button type="button" class="btn btn-primary">5 Nos</button>
+                        <button type="button" class="btn btn-primary">-</button>
+                    </div>>
+                </div>
+
+            </div>
+        </div>
+        <div class="row m-3 col-11">
+            <div class="card">
+                <img src="iphone.jpeg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                        card's content.</p>
+                    <div class="btn-group" role="group" aria-label="Basic example">
+                        <button type="button" class="btn btn-primary">+</button>
+                        <button type="button" class="btn btn-primary">5 Nos</button>
+                        <button type="button" class="btn btn-primary">-</button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <div class="row m-3 col-11">
+            <div class="card">
+                <img src="bag2.jpeg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                        card's content.</p>
+                    <div class="btn-group" role="group" aria-label="Basic example">
+                        <button type="button" class="btn btn-primary">+</button>
+                        <button type="button" class="btn btn-primary">5 Nos</button>
+                        <button type="button" class="btn btn-primary">-</button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <div class="jumbotron">
+        <h1 class="display-4">Total Cost 999 Rs</h1>
+        <a href="#"><button id="two">Make Payment</button></a>
+    </div>
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+        crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js" integrity="sha384-zYPOMqeu1DAVkHiLqWBUTcbYfZ8osu1Nd6Z89ify25QV9guujx43ITvfi12/QExE" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.min.js" integrity="sha384-Y4oOpwW3duJdCWv5ly8SCFYWqFDsfob/3GkgExXKV4idmbt98QcxXYs9UoXAB7BZ" crossorigin="anonymous"></script>
+    -->
+</body>
+
+</html>
